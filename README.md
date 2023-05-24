@@ -1,4 +1,4 @@
-# emXterity
+# Xterity
 A recording application (python-based) that discovers LSL streams in the network and allows time-synchronized recording into binary pickle files.
 You will need the following python libraries (at least):
 * wxPython for the GUI

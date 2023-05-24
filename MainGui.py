@@ -39,12 +39,12 @@ class MainFrame(wx.Frame):
         self.Destroy()
 
     def OnAbout(self, event):
-        wx.MessageBox("This is emXterity v1.2.\nA toolkit to record labstreamlayer streams on the local network.", "emXterity", wx.OK | wx.ICON_INFORMATION)
+        wx.MessageBox("This is Xterity v1.2.\nA toolkit to record labstreamlayer streams on the local network.", "emXterity", wx.OK | wx.ICON_INFORMATION)
 
 
 
 if __name__ == '__main__':
     app = wx.App()
-    frame = MainFrame(None, title="emXterity", size=(1000, 300))
+    frame = MainFrame(None, title="Xterity", size=(1000, 300))
     frame.Show()
     app.MainLoop()
